@@ -16,7 +16,6 @@ export const Cadastro = ({ navigation }) => (
     <KeyboardView>
       <Header />
       <Container>
-        <Title>Cadastro</Title>
         <Input 
           placeholderTextColor="#fff"
           placeholder="E-mail"
@@ -31,7 +30,7 @@ export const Cadastro = ({ navigation }) => (
           secureTextEntry
         />
         
-        <ButtonSubmit  >
+        <ButtonSubmit onPress={() => navigation.navigate('Login')} >
           <TextButton>
             Cadastrar
           </TextButton>

@@ -7,12 +7,11 @@ import Header from '../../components/Header';
 
 
 //Funcao  Tela Login 
-export const Signin = ({ navigation }) => (
+export const Login = ({ navigation }) => (
   
     <KeyboardView>
       <Header />
       <Container>
-        <Title>Login</Title>
         <Input 
           placeholderTextColor="#fff"
           placeholder="E-mail"
@@ -23,7 +22,7 @@ export const Signin = ({ navigation }) => (
           secureTextEntry
         />
         
-        <ButtonSubmit  >
+        <ButtonSubmit  onPress={() => navigation.navigate('Home')}>
           <TextButton>
             Entrar
           </TextButton>
@@ -48,5 +47,5 @@ export const Signin = ({ navigation }) => (
 
   
 
-export default Signin;
+export default Login;
 

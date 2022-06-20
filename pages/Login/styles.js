@@ -1,7 +1,7 @@
 // Importação da Biblioteca 
 import styled from 'styled-components/native';
 
-export const Signin = 
+export const Login = 
 `
 background-color:#fff;
 `
@@ -20,6 +20,7 @@ export const Container = styled.View`
   align-items: center;
   padding-bottom: 20px;
   width: 90%;
+  margin-bottom: 90px;
 `
 // Estilização do Titulo
 export const Title = styled.Text`

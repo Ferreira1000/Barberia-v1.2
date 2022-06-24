@@ -16,6 +16,10 @@ export const Cadastro = ({ navigation }) => (
     <KeyboardView>
       <Header />
       <Container>
+      <Input 
+          placeholderTextColor="#fff"
+          placeholder="Nome"
+        />
         <Input 
           placeholderTextColor="#fff"
           placeholder="E-mail"

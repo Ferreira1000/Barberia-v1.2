@@ -31,7 +31,7 @@ export const Login = ({ navigation }) => (
       </Container>
 
          <Text>
-            <Button    color={'fff'} title='Cadastrar'
+            <Button   fonte color={'fff'} title='Cadastrar'
             onPress={() => navigation.navigate('Cadastro')}>
             
             </Button>

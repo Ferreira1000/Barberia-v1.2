@@ -7,24 +7,24 @@ import { KeyboardView, Title, Container, Input, ButtonSubmit,TextButton} from '.
 
 //Funcao  Tela Login 
 
-export const Home = ({ navigation }) => (  
+export const Valores = ({ navigation }) => (  
     <KeyboardView>
       <Container>
         <Title>Valores</Title>
         
-        <ButtonSubmit onPress={() => navigation.navigate('#')} >
+        <ButtonSubmit>
           <TextButton>
             Cabelo  R$ 30,00
           </TextButton>
          </ButtonSubmit>
 
-         <ButtonSubmit onPress={() => navigation.navigate('#')} >
+         <ButtonSubmit>
           <TextButton>
            Barba  R$ 25,00
           </TextButton>
          </ButtonSubmit>
 
-         <ButtonSubmit onPress={() => navigation.navigate('#')} >
+         <ButtonSubmit>
           <TextButton>
             Sobrancelha R$ 15,00
           </TextButton>
@@ -34,4 +34,4 @@ export const Home = ({ navigation }) => (
     </KeyboardView>
   );
 
-export default  Home;
+export default  Valores;

@@ -10,7 +10,7 @@ LocaleConfig.locales['br'] = {
 
 LocaleConfig.defaultLocale = 'br';
 
-export default class CalendarScreen extends React.Component {
+export default class Agendar extends React.Component {
     constructor(props) {
         super(props);
 		this.state = {

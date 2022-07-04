@@ -30,11 +30,7 @@ function MyStack() {
       component={Cadastro} />
 
       <Stack.Screen name="Home" options={{
-        headerStyle: {
-          backgroundColor: 'black',
-        },
-        headerTintColor: 'white',
-        title: '',
+        headerShown: false,
       }}  
       component={Home} />
 

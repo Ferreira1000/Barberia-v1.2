@@ -1,33 +1,18 @@
 {
   "expo": {
-    "name": "Barbearia",
-    "slug": "Barbearia",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+    
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyAmBDH9pdq7bo7QIoU9T7uvXxuZG-YS_JE",
+        "authDomain": "edubarber-ad022.firebaseapp.com",
+        "databaseURL": "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "projectId": "edubarber-ad022",
+        "storageBucket": "edubarber-ad022.appspot.com",
+        "messagingSenderId": "549019423529791"
+      },
+      "facebook": {
+        "appId": "549019423529791"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
